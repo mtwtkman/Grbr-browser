@@ -9,7 +9,7 @@ $ npm start
 ```
 
 # Packaging
-## All platforms
+## All platforms (But I don't care Windows and Linux)
 ```sh
 $ npm run pack:all
 ```
@@ -19,12 +19,12 @@ $ npm run pack:all
 $ npm run pack:mac
 ```
 
-## For Windows
+## For Windows (Operation unconfirmed)
 ```sh
 $ npm run pack:win
 ```
 
-## For Linux
+## For Linux (Operation unconfirmed)
 ```sh
 $ npm run pack:linux
 ```
