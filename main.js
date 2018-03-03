@@ -3,7 +3,7 @@ const url = require('url');
 const electron = require('electron');
 const {app, BrowserWindow, ipcMain} = electron;
 
-W = 470;
+const W = 470;
 
 const createWindow = () => {
     let win = new BrowserWindow({
