@@ -5,14 +5,16 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "asar": "asar pack . ./app.asar",
-    "up": "electron ./app.asar",
-    "pack:mac": "./pack mac"
+    "pack": "electron-packager ./src Grbr --platform=all --arch=x64 --electronVersion=1.8.2",
+    "pack:mac": "electron-packager ./src Grbr --platform=darwin --arch=x64 --electronVersion=1.8.2",
+    "pack:win": "electron-packager ./src Grbr --platform=win32 --arch=x64 --electronVersion=1.8.2",
+    "pack:linux": "electron-packager ./src Grbr --platform=linux --arch=x64 --electronVersion=1.8.2"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "asar": "^0.14.2",
-    "electron": "^1.8.2"
+    "electron": "^1.8.2",
+    "electron-packager": "^11.0.1"
   }
 }
